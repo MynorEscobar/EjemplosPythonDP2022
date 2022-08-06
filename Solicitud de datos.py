@@ -17,3 +17,4 @@ print ("valCualquiera: ",type(valCualquiera),": ", valCualquiera)
 
 print("Booleano Verdadero: ", valBoolV)
 print("Booleano Falso: ", valBoolF)
+print ("Feliz día")

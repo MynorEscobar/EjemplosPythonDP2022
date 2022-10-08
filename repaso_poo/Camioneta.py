@@ -3,5 +3,5 @@ class Camioneta(Automovil):
     #atributos
     capacidadCarga=0.0
     #metodos
-    def verDatosCamioneta(self):
+    def verDatosCamioneta():
         print("Capacidad de carga ", self.capacidadCarga ," litros" )

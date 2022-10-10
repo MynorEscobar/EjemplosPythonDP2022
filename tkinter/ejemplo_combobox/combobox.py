@@ -5,7 +5,7 @@ from tkinter.ttk import Combobox
 from Solucion1 import Solucion1
 
 ventana = Tk()
-ventana.title = "Ejemplo ComboBox"
+ventana.title("Ejemplo ComboBox")
 ventana.geometry("400x500")
 #establecer el tipo y tamaño de fuente para los diversos controles
 fuente = ("Arial","18")
@@ -28,10 +28,10 @@ btn_generar_tabla = Button(ventana, text="Generar Tabla", font=fuente, command=c
 
 
 
-lbl_titulo.pack()
-lbl_valor1.pack()
-txt_valor1.pack()
-btn_generar_tabla.pack()
-combo1.pack()
+lbl_titulo.pack(pady=5)
+lbl_valor1.pack(pady=5)
+txt_valor1.pack(pady=5)
+btn_generar_tabla.pack(pady=5)
+combo1.pack(pady=5)
 
 ventana.mainloop()
